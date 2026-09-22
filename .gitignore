@@ -1,0 +1,24 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.playwright-cli/
+.venv/
+__pycache__/
+*.pyc
+
+# Local source photos and derived datasets stay private.
+Nooby/
+Jaina/
+Distributeurs/
+dataset/
+
+# Generated models, training runs, reports and visual QA output.
+artifacts/
+runs/
+output/
+yolo*.pt
+
+simulator/.cache/
+simulator/app/node_modules/
+simulator/app/dist/
