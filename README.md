@@ -32,7 +32,7 @@ La webcam doit cadrer les deux Xiaomi Smart Pet Food Feeder de première génér
 
 Il faut deux analyses consécutives montrant l'avant de la silhouette du chat dans la mauvaise zone avant de déclencher l'alerte : Jaina à gauche ou Nooby à droite fait prononcer une seconde fois son nom et donne au Microduck une commande de course vers les coordonnées 3D de cette gamelle. La course continue pendant que l'inversion reste confirmée, ralentit pour tourner, s'arrête à 20 cm de la cible et s'annule au premier résultat qui ne montre plus l'inversion. Les zones détectées sont gardées huit secondes pour résister à l'occultation du bol par le chat. Le cadrage étant prévu depuis l'arrière des chats, seules la tête et les épaules (les 58 % supérieurs de leur boîte de détection) servent à décider qu'ils mangent ; la queue ou la croupe qui passe devant un bol ne suffit pas.
 
-Le pipeline Stable Audio 3 Small SFX trouvé dans Échappée est conçu pour les ambiances et effets sonores, pas pour prononcer fidèlement un nom. Les deux annonces WAV sont donc produites hors runtime avec la voix française locale `Thomas` de macOS (`Noubi` et `Jaïna` pour guider la prononciation), puis embarquées dans `simulator/app/public/assets/voices/cats/`. Aucune photo ni donnée audio ne quitte le Mac.
+Le pipeline Stable Audio 3 Small SFX trouvé dans Échappée est conçu pour les ambiances et effets sonores, pas pour prononcer fidèlement un nom. Les deux annonces WAV sont donc produites hors runtime avec la voix française locale `Thomas` de macOS (`Noubi` et `Jaïna` pour guider la prononciation), puis embarquées dans `simulator/app/public/assets/voices/cats/`. Les photos sources et les images issues de la webcam restent sur le Mac.
 
 ## Limites connues
 
